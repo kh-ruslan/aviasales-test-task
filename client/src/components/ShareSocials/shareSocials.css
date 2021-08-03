@@ -1,0 +1,19 @@
+.share-socials {
+  position: relative;
+  width: 100%;
+}
+
+.react-share__ShareButton {
+  height: 54px;
+  width: 54px;
+}
+
+.share-socials__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.react-share__ShareButton--disabled {
+  cursor: auto !important;
+}

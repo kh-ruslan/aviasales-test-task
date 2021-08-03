@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Shnobel;
+  src: url('fonts/shnobel-regular.otf') format('opentype');
+}
+
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #CD718E;
+}
+
+.App {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  max-width: 330px;
+  margin: 0 auto;
+}
+
+.App_final-page {
+  max-width: initial;
+}
+
+h1 {
+  font-family: Shnobel;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.list-count-item {
+  font-family: Shnobel;
+  position: absolute;
+  left: -55px;
+  font-size: 44px;
+  top: -14px;
+}
+
+.list-count-item-done {
+  background-color: #7F4156;
+  background-position: 65% 65%;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNSAxMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBpZD0ic3R5bGVzIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGlkPSJkb25lIiBmaWxsPSIjRkZGIiBkPSJNNi4xOTUgNi43OUwxMi44MjcuMTU2bDEuNjY2IDEuNjY2LTguMjk4IDguMjk4LTYuMjAyLTYuMjAzTDEuNjYgMi4yNTN6Ii8+PC9nPjwvc3ZnPg==);
+  height: 21px;
+  width: 21px;
+  display: block;
+  position: absolute;
+  left: -50px;
+  top: 2px;
+}

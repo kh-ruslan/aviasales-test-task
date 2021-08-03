@@ -1,0 +1,22 @@
+.final-page {
+  background: url('../../img/final.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.final-page s {
+  color: #7f4156;
+}
+
+.final-page h1 {
+  font-size: 65px;
+}
+
+.final-page strong {
+  font-size: 118px;
+  font-weight: 500;
+}
